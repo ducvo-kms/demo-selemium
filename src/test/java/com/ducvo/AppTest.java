@@ -25,7 +25,7 @@ public class AppTest
     {
         System.setProperty(
             "webdriver.chrome.driver",
-            "/Users/ducvo/contribute/code/kms-connect/plugins/eclinicalworks/chromedriver");
+            "/selemium/chrome-driver/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless", "--no-sandbox", "--disable-gpu");
         options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
