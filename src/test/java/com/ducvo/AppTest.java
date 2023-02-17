@@ -23,9 +23,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        System.setProperty(
-            "webdriver.chrome.driver",
-            "/selemium/chrome-driver/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless", "--no-sandbox", "--disable-gpu");
         options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
